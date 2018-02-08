@@ -1,0 +1,24 @@
+<xStudents xmlns="http://www.sifassociation.org/datamodel/na/3.5">  <!-- Namesapce -->
+  <xStudent refId="638465ce-f636-11e7-8c3f-9a214cf093ae"> <!-- Attribute -->
+    <name>
+      <type>FullName</type>
+      <familyName>Lovell</familyName>
+      <givenName>John</givenName>
+      <middleName/> <!-- Empty -->
+    </name>
+    <email>
+      <emailType>Work</emailType>
+      <emailAddress>jlovell@a4l.org</emailAddress>
+    </email>
+    <otherEmails> <!-- List -->
+      <email>
+        <emailType>Other</emailType>
+        <emailAddress>jlovell@sifassociation.org</emailAddress>
+      </email>
+      <email>
+        <emailType>Home</emailType>
+        <emailAddress>JohnWLovell@gmail.com</emailAddress>
+      </email>
+    </otherEmails>
+  </xStudent>
+</xStudents>

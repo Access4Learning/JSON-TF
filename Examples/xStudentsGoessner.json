@@ -1,0 +1,30 @@
+{
+  "xStudents":{
+    "@xmlns":"http://www.sifassociation.org/datamodel/na/3.5",
+    "xStudent":{
+      "@refId":"638465ce-f636-11e7-8c3f-9a214cf093ae",
+      "name":{
+        "type":"FullName",
+        "familyName":"Lovell",
+        "givenName":"John",
+        "middleName":null
+      },
+      "email":{
+        "emailType":"Work",
+        "emailAddress":"jlovell@a4l.org"
+      },
+      "otherEmails":{
+        "email":[
+          {
+            "emailType":"Other",
+            "emailAddress":"jlovell@sifassociation.org"
+          },
+          {
+            "emailType":"Home",
+            "emailAddress":"JohnWLovell@gmail.com"
+          }
+        ]
+      }
+    }
+  }
+}
