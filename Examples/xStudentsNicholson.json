@@ -1,50 +1,52 @@
 {
   "xStudents": {
     "_xmlns": "http://www.sifassociation.org/datamodel/na/3.5",
-    "xStudent": {
-      "_refId": "638465ce-f636-11e7-8c3f-9a214cf093ae",
-      "name": {
-        "type": {
-          "_": "FullName"
-        },
-        "familyName": {
-          "_": "Lovell"
-        },
-        "givenName": {
-          "_": "John"
-        },
-        "middleName": {
-          "_": null
-        }
-      },
-      "email": {
-        "emailType": {
-          "_": "Work"
-        },
-        "emailAddress": {
-          "_": "jlovell@a4l.org"
-        }
-      },
-      "otherEmails": {
-        "email": [
-          {
-            "emailType": {
-              "_": "Other"
-            },
-            "emailAddress": {
-              "_": "jlovell@sifassociation.org"
-            }
+    "xStudent": [
+      {
+        "_refId": "638465ce-f636-11e7-8c3f-9a214cf093ae",
+        "name": {
+          "type": {
+            "_": "FullName"
           },
-          {
-            "emailType": {
-              "_": "Home"
-            },
-            "emailAddress": {
-              "_": "JohnWLovell@gmail.com"
-            }
+          "familyName": {
+            "_": "Lovell"
+          },
+          "givenName": {
+            "_": "John"
+          },
+          "middleName": {
+            "_": null
           }
-        ]
+        },
+        "email": {
+          "emailType": {
+            "_": "Work"
+          },
+          "emailAddress": {
+            "_": "jlovell@a4l.org"
+          }
+        },
+        "otherEmails": {
+          "email": [
+            {
+              "emailType": {
+                "_": "Other"
+              },
+              "emailAddress": {
+                "_": "jlovell@sifassociation.org"
+              }
+            },
+            {
+              "emailType": {
+                "_": "Home"
+              },
+              "emailAddress": {
+                "_": "JohnWLovell@gmail.com"
+              }
+            }
+          ]
+        }
       }
-    }
+    ]
   }
 }
