@@ -1,0 +1,255 @@
+{
+  "ColTrn.CollegeTranscript" : {
+    "TransmissionData" : {
+      "DocumentID" : "628",
+      "CreatedDateTime" : "2017-10-03T17:44:47.974Z",
+      "DocumentTypeCode" : "StudentRequest",
+      "TransmissionType" : "Original",
+      "Source" : {
+        "Organization" : {
+          "OPEID" : "00133400",
+          "NCHELPID" : "00133400",
+          "IPEDS" : "125028",
+          "ATP" : "493111",
+          "FICE" : "001334",
+          "ACT" : "0476",
+          "CEEBACT" : "493111",
+          "MutuallyDefined" : "32960",
+          "OrganizationName" : [ "Ventura College" ],
+          "Contacts" : [ {
+          } ]
+        }
+      },
+      "Destination" : {
+        "Organization" : {
+          "DUNS" : "013900836",
+          "OrganizationName" : [ "Parchment Inc." ],
+          "Contacts" : [ {
+            "Address" : [ {
+              "AddressLine" : [ "7001 N Scottsdale Rd", "Ste. 1050" ],
+              "City" : "Scottsdale",
+              "StateProvinceCode" : "AZ",
+              "PostalCode" : "85250"
+            } ]
+          } ]
+        }
+      },
+      "RequestTrackingID" : "366"
+    },
+    "Student" : {
+      "Person" : {
+        "SchoolAssignedPersonID" : "0",
+        "SSN" : "000000000",
+        "PartialSSN" : "0000",
+        "Birth" : {
+          "BirthDate" : "1995-01-01Z"
+        },
+        "Name" : {
+          "FirstName" : "John",
+          "LastName" : "Doe"
+        },
+        "HighSchool" : {
+          "OrganizationName" : "McClatchy High School",
+          "CEEBACT" : "052705"
+        },
+        "Contacts" : [ {
+          "Address" : [ {
+            "AddressLine" : [ "2406 Capitol Ave. #4" ],
+            "City" : "Sacramento",
+            "StateProvinceCode" : "CA",
+            "PostalCode" : "95816"
+          } ],
+          "Phone" : [ {
+            "PhoneNumber" : "0000000000"
+          } ],
+          "Email" : [ {
+            "EmailAddress" : "john.doe@edexchange.edu"
+          } ]
+        } ]
+      },
+      "AcademicRecord" : [ {
+        "School" : {
+          "OrganizationName" : "Sacramento City College",
+          "FICE" : "001233"
+        },
+        "StudentLevel" : {
+          "StudentLevelCode" : "CollegeSophomore"
+        },
+        "AcademicSession" : [ {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2015-09",
+            "SessionName" : "Fall Semester 2015",
+            "SessionBeginDate" : "2015-09-01Z",
+            "SessionEndDate" : "2015-12-01Z"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "AcademicProgram" : [ {
+            "ProgramCIPCode" : "11.0101",
+            "AcademicProgramType" : "Major",
+            "AcademicProgramName" : "Computer and Information Sciences, General"
+          } ],
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 4.0,
+            "CourseCreditEarned" : 4.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "11.0101",
+            "CourseQualityPointsEarned" : 16.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "CISC",
+            "CourseNumber" : "360",
+            "CourseTitle" : "Information Technology 360"
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 4.0,
+            "CourseCreditEarned" : 4.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "11.0201",
+            "CourseQualityPointsEarned" : 16.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "CISP",
+            "CourseNumber" : "301",
+            "CourseTitle" : "Algorithm Design and 4 Units Implementation"
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 5.0,
+            "CourseCreditEarned" : 5.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseCIPCode" : "27.0102",
+            "CourseQualityPointsEarned" : 15.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "120",
+            "CourseTitle" : "Intermediate Algebra"
+          } ],
+          "AcademicSummary" : [ {
+            "AcademicSummaryType" : "SenderOnly",
+            "AcademicSummaryLevel" : "LowerDivision",
+            "GPA" : {
+              "CreditHoursAttempted" : 13.0,
+              "CreditHoursEarned" : 13.0,
+              "CreditUnit" : "Semester",
+              "GradePointAverage" : 4.00,
+              "TotalQualityPoints" : 52.0,
+              "CreditHoursforGPA" : 47.0,
+              "GPARangeMinimum" : 0.0,
+              "GPARangeMaximum" : 4.0
+            },
+            "AcademicHonors" : [ {
+              "HonorsTitle" : "Dean's List",
+              "HonorsLevel" : "SecondHighest"
+            } ]
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2016-01",
+            "SessionName" : "Spring Semester 2016",
+            "SessionBeginDate" : "2016-01-15Z",
+            "SessionEndDate" : "2016-06-15Z"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "AcademicProgram" : [ {
+            "ProgramCIPCode" : "11.0101",
+            "AcademicProgramType" : "Major",
+            "AcademicProgramName" : "Computer and Information Sciences, General"
+          } ],
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 5.0,
+            "CourseCreditEarned" : 5.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "27.0102",
+            "CourseQualityPointsEarned" : 20.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "100",
+            "CourseTitle" : "Elementary Algebra"
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 3.0,
+            "CourseCreditEarned" : 3.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "11.0801",
+            "CourseQualityPointsEarned" : 12.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "CISW",
+            "CourseNumber" : "304",
+            "CourseTitle" : "Cascading Style Sheets"
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 3.0,
+            "CourseCreditEarned" : 3.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "11.0801",
+            "CourseQualityPointsEarned" : 12.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "CISW",
+            "CourseNumber" : "320",
+            "CourseTitle" : "Introduction to Web Site"
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditLevel" : "LowerDivision",
+            "CourseCreditValue" : 4.0,
+            "CourseCreditEarned" : 4.0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseCIPCode" : "11.0801",
+            "CourseQualityPointsEarned" : 16.0,
+            "CourseLevel" : "LowerDivision",
+            "CourseGPAApplicabilityCode" : "Applicable",
+            "CourseSubjectAbbreviation" : "CISW",
+            "CourseNumber" : "400",
+            "CourseTitle" : "Client-side Web Scripting"
+          } ],
+          "AcademicSummary" : [ {
+            "AcademicSummaryType" : "SenderOnly",
+            "AcademicSummaryLevel" : "LowerDivision",
+            "GPA" : {
+              "CreditHoursAttempted" : 15.0,
+              "CreditHoursEarned" : 15.0,
+              "CreditUnit" : "Semester",
+              "GradePointAverage" : 4.00,
+              "TotalQualityPoints" : 60.0,
+              "CreditHoursforGPA" : 60.0,
+              "GPARangeMinimum" : 0.0,
+              "GPARangeMaximum" : 4.0
+            },
+            "AcademicHonors" : [ {
+              "HonorsTitle" : "Dean's List",
+              "HonorsLevel" : "FirstHighest"
+            } ]
+          } ]
+        } ]
+      } ]
+    }
+  }
+}
