@@ -1,0 +1,26 @@
+{
+  "xLea":{
+    "@xmlns":"http://www.sifassociation.org/datamodel/na/3.3",
+    "@refId":"9BA8379D-9A9D-4D59-9202-E976CADF5526",
+    "localId":null,
+    "stateProvinceId":null,
+    "ncesId":null,
+    "leaName":null,
+    "address":{
+      "line1":null,
+      "city":null,
+      "stateProvince":null,
+      "postalCode":null
+    },
+    "phoneNumber":{
+      "phoneNumberType":null,
+      "number":null,
+      "primaryIndicator":null
+    },
+    "otherPhoneNumbers":{"phoneNumber":{
+        "phoneNumberType":null,
+        "number":null,
+        "primaryIndicator":null
+      }}
+  }
+}

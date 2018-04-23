@@ -1,0 +1,58 @@
+{
+  "xLea": {
+    "_xmlns": "http://www.sifassociation.org/datamodel/na/3.3",
+    "_refId": "9BA8379D-9A9D-4D59-9202-E976CADF5526",
+    "localId": {
+      "_": "BT101"
+    },
+    "stateProvinceId": {
+      "_": "738121"
+    },
+    "ncesId": {
+      "_": "12345"
+    },
+    "leaName": {
+      "_": "Broome County Super District"
+    },
+    "address": {
+      "line1": {
+        "_": "21 School Drive"
+      },
+      "city": {
+        "_": "Albany"
+      },
+      "stateProvince": {
+        "_": "NY"
+      },
+      "postalCode": {
+        "_": "12304"
+      }
+    },
+    "phoneNumber": {
+      "phoneNumberType": {
+        "_": "Other"
+      },
+      "number": {
+        "_": "518-555-5555"
+      },
+      "primaryIndicator": {
+        "_": "true"
+      }
+    },
+    "otherPhoneNumbers": {
+      "phoneNumber": [
+        {
+          "phoneNumberType": {
+            "_": "Other"
+          },
+          "number": {
+            "_": "518-555-5556"
+          },
+          "primaryIndicator": {
+            "_": "false"
+          }
+        }
+      ]
+    }
+  }
+}

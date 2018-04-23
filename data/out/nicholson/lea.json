@@ -1,0 +1,77 @@
+{
+  "lea": {
+    "_xmlns": "http://www.sifassociation.org/datamodel/na/3.4",
+    "_refId": "9BA8379D-9A9D-4D59-9202-E976CADF5526",
+    "localId": {
+      "idType": {
+        "_codesetName": "locationTypesNY",
+        "code": {
+          "_": "local"
+        }
+      },
+      "idValue": {
+        "_": "BT101"
+      }
+    },
+    "externalIdList": {
+      "externalId": [
+        {
+          "idType": {
+            "_codesetName": "locationTypesNY",
+            "code": {
+              "_": "stateProvince"
+            }
+          },
+          "idValue": {
+            "_": "738121"
+          }
+        },
+        {
+          "idType": {
+            "code": {
+              "_": "nces"
+            }
+          },
+          "idValue": {
+            "_": "12345"
+          }
+        }
+      ]
+    },
+    "leaName": {
+      "_": "Broome County Super District"
+    },
+    "leaURL": {
+      "_": "http://www.newyorkschools.com/districts/binghamton-school-district.html"
+    },
+    "educationAgencyType": {
+      "_": "SuperDistrict"
+    },
+    "phoneNumberList": {
+      "phoneNumber": [
+        {
+          "phoneNumberType": {
+            "_codesetName": "phoneNumberTypesNY",
+            "code": {
+              "_": "physical"
+            }
+          },
+          "number": {
+            "_": "518-555-5556"
+          },
+          "listedStatus": {
+            "_": "true"
+          }
+        }
+      ]
+    },
+    "addressRefIdList": {
+      "addressRefId": [
+        {
+          "_addressRole": "physical",
+          "_": "921c1f02-9359-11e7-abc4-cec278b6b50a"
+        }
+      ]
+    }
+  }
+}

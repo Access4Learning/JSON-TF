@@ -1,0 +1,38 @@
+<lea xmlns="http://www.sifassociation.org/datamodel/na/3.4" refId="9BA8379D-9A9D-4D59-9202-E976CADF5526">
+  <localId>
+    <idType codesetName="locationTypesNY">
+      <code>local</code>
+    </idType>
+    <idValue>BT101</idValue>
+  </localId>
+  <externalIdList>
+    <externalId>
+      <idType codesetName="locationTypesNY">
+        <code>stateProvince</code>
+      </idType>
+      <idValue>738121</idValue>
+    </externalId>
+    <externalId>
+      <idType>
+        <code>nces</code>
+      </idType>
+      <idValue>12345</idValue>
+    </externalId>
+  </externalIdList>
+  <leaName>Broome County Super District</leaName>
+  <leaURL>http://www.newyorkschools.com/districts/binghamton-school-district.html</leaURL>
+  <educationAgencyType>SuperDistrict</educationAgencyType>
+  <phoneNumberList>
+    <phoneNumber>
+      <phoneNumberType codesetName="phoneNumberTypesNY">
+        <code>physical</code>
+      </phoneNumberType>
+      <number>518-555-5556</number>
+      <listedStatus>true</listedStatus>
+    </phoneNumber>
+  </phoneNumberList>
+  <addressRefIdList>
+    <addressRefId addressRole="physical">921c1f02-9359-11e7-abc4-cec278b6b50a</addressRefId>
+  </addressRefIdList>
+</lea>
+
