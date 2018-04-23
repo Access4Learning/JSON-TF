@@ -1,0 +1,260 @@
+{
+   "ColTrn.CollegeTranscript" : {
+      "TransmissionData" : {
+         "DocumentID" : "DOCUMENT_ID_1",
+         "CreatedDateTime" : "2018-04-09T10:42:57.349-07:00",
+         "DocumentTypeCode" : "StudentRequest",
+         "TransmissionType" : "Original",
+         "Source" : {
+            "Organization" : {
+               "FICE" : "008073",
+               "OrganizationName" : [ "Butte College" ],
+               "Contacts" : [ {
+               } ]
+            }
+         },
+         "Destination" : {
+            "Organization" : {
+               "MutuallyDefined" : "4",
+               "OrganizationName" : [ "CCC Technology Center" ],
+               "Contacts" : [ {
+               } ]
+            }
+         },
+         "DocumentProcessCode" : "TEST"
+      },
+      "Student" : {
+         "Person" : {
+            "SchoolAssignedPersonID" : "0",
+            "SSN" : "000000000",
+            "PartialSSN" : "0000",
+            "Birth" : {
+               "BirthDate" : "1995-01-01-08:00"
+            },
+            "Name" : {
+               "FirstName" : "John",
+               "LastName" : "Doe"
+            },
+            "HighSchool" : {
+               "OrganizationName" : "McClatchy High School",
+               "CEEBACT" : "052705"
+            },
+            "Contacts" : [ {
+               "Address" : [ {
+                  "AddressLine" : [ "2406 Capitol Ave. #4" ],
+                  "City" : "Sacramento",
+                  "StateProvinceCode" : "CA",
+                  "PostalCode" : "95861"
+               } ],
+               "Phone" : [ {
+                  "AreaCityCode" : "916",
+                  "PhoneNumber" : "3837016"
+               } ],
+               "Email" : [ {
+                  "EmailAddress" : "john.doe@ccctechcenter.org"
+               } ]
+            } ],
+            "Gender" : {
+               "GenderCode" : "Male"
+            },
+            "Residency" : {
+               "StateProvinceCode" : "CA"
+            }
+         },
+         "AcademicRecord" : [ {
+            "School" : {
+               "OrganizationName" : "Butte College",
+               "FICE" : "008073"
+            },
+            "StudentLevel" : {
+               "StudentLevelCode" : "CollegeSophomore"
+            },
+            "AcademicAward" : [ {
+               "AcademicAwardProgram" : [ {
+                  "ProgramCIPCode" : "11.0101",
+                  "AcademicProgramType" : "Major",
+                  "AcademicProgramName" : "Computer and Information Sciences, General",
+                  "ProgramSummary" : {
+                     "AcademicSummaryType" : "SenderOnly",
+                     "AcademicSummaryLevel" : "LowerDivision",
+                     "GPA" : {
+                        "CreditHoursAttempted" : 13,
+                        "CreditHoursEarned" : 13,
+                        "CreditUnit" : "Semester",
+                        "GradePointAverage" : 4.00,
+                        "TotalQualityPoints" : 52,
+                        "CreditHoursforGPA" : 47
+                     },
+                     "AcademicHonors" : [ {
+                        "HonorsTitle" : "Dean's List",
+                        "HonorsLevel" : "SecondHighest"
+                     } ]
+                  }
+               } ],
+               "AcademicDegreeRequirement" : [ {
+                  "ThesisDissertationTitle" : "Sorting algorithm efficiency",
+                  "ThesisDissertationAdvisor" : "Dave Wilson"
+               } ],
+               "AcademicSummary" : [ {
+                  "AcademicSummaryType" : "SenderOnly",
+                  "GPA" : {
+                     "CreditHoursAttempted" : 159,
+                     "CreditHoursEarned" : 136,
+                     "CreditUnit" : "Semester",
+                     "GradePointAverage" : 3.48,
+                     "TotalQualityPoints" : 473,
+                     "CreditHoursforGPA" : 153
+                  },
+                  "AcademicHonors" : [ {
+                     "HonorsTitle" : "Cum Laude",
+                     "HonorsLevel" : "ThirdHighest"
+                  } ]
+               } ]
+            } ],
+            "AcademicSummary" : [ {
+               "AcademicSummaryType" : "SenderOnly",
+               "AcademicSummaryLevel" : "LowerDivision",
+               "GPA" : {
+                  "CreditHoursAttempted" : 159,
+                  "CreditHoursEarned" : 136,
+                  "CreditUnit" : "Semester",
+                  "GradePointAverage" : 3.48,
+                  "TotalQualityPoints" : 473,
+                  "CreditHoursforGPA" : 153
+               },
+               "AcademicHonors" : [ {
+                  "HonorsTitle" : "Suma Cum Laude",
+                  "HonorsLevel" : "FirstHighest"
+               } ],
+               "AcademicProgram" : {
+                  "ProgramCIPCode" : "123456",
+                  "AcademicProgramType" : "Major",
+                  "AcademicProgramName" : "Computer Science"
+               }
+            } ],
+            "AcademicSession" : [ {
+               "AcademicSessionDetail" : {
+                  "SessionDesignator" : "2016-10",
+                  "SessionName" : "Fall Semester 2016",
+                  "SessionType" : "Semester"
+               },
+               "StudentLevel" : {
+                  "StudentLevelCode" : "CollegeFirstYear"
+               },
+               "AcademicProgram" : [ {
+                  "ProgramCIPCode" : "123456",
+                  "AcademicProgramType" : "Major",
+                  "AcademicProgramName" : "Computer Science",
+                  "ProgramSummary" : {
+                     "AcademicSummaryType" : "SenderOnly",
+                     "AcademicSummaryLevel" : "Undergraduate",
+                     "GPA" : {
+                        "CreditHoursAttempted" : 12,
+                        "CreditHoursEarned" : 12,
+                        "CreditUnit" : "Semester",
+                        "GradePointAverage" : 3.75,
+                        "TotalQualityPoints" : 45,
+                        "CreditHoursforGPA" : 12
+                     },
+                     "AcademicHonors" : [ {
+                        "HonorsTitle" : "Cum Laude",
+                        "HonorsLevel" : "ThirdHighest"
+                     } ]
+                  }
+               } ],
+               "Course" : [ {
+                  "CourseCreditBasis" : "Regular",
+                  "CourseCreditUnits" : "Semester",
+                  "CourseCreditValue" : 3,
+                  "CourseCreditEarned" : 3,
+                  "CourseAcademicGradeScaleCode" : "25",
+                  "CourseAcademicGrade" : "A",
+                  "CourseRepeatCode" : "RepeatNotCounted",
+                  "CourseQualityPointsEarned" : 12,
+                  "CourseLevel" : "LowerDivision",
+                  "CourseSubjectAbbreviation" : "CSC",
+                  "CourseNumber" : "15",
+                  "OriginalCourseID" : "CSC 15",
+                  "CourseTitle" : "Programming Concepts and Methodology I",
+                  "CourseBeginDate" : "2014-09-01-07:00",
+                  "CourseEndDate" : "2014-12-07-08:00",
+                  "UserDefinedExtensions" : {
+                     "CCC.CourseCCCExtensions" : {
+                        "StateArticulationID" : "1",
+                        "CSUArticulationID" : "1",
+                        "CSUAmerInstCode" : "Applied",
+                        "CSUGEAppliedArea" : "D10",
+                        "CSUIGETCEligibleArea" : "1A",
+                        "CSUIGETCAppliedArea" : "1B",
+                        "UCIGETCEligibleArea" : "4H",
+                        "UCIGETCAppliedArea" : "5B",
+                        "GradeBracket" : "GradeIsBracketed",
+                        "AttemptedUnitsCalc" : "Counted",
+                        "EarnedUnitsCalc" : "BracketedCounted",
+                        "GradePointsCalc" : "NotCounted",
+                        "Transferability" : "TransferableToUCandCSU",
+                        "CourseActionCode" : "UnitsChanged"
+                     }
+                  }
+               } ]
+            } ],
+            "UserDefinedExtensions" : {
+               "CCC.AcademicRecordCCCExtensions" : {
+                  "GradeSchemeEntry" : {
+                     "Grade" : "A",
+                     "Description" : "Description",
+                     "GradePoints" : "230.450",
+                     "EDIGradeQualifier" : "AA",
+                     "AttemptedUnitsCalc" : "Counted",
+                     "EarnedUnitsCalc" : "BracketedNotCounted",
+                     "GradePointsCalc" : "BracketedCounted",
+                     "EffectiveFromDate" : "2018-04-09-07:00",
+                     "EffectiveToDate" : "2018-04-09-07:00"
+                  },
+                  "NotationLegendEntry" : {
+                     "NotationCode" : "123",
+                     "NotationDescription" : "Description",
+                     "EffectiveFromDate" : "2018-04-09-07:00",
+                     "EffectiveToDate" : "2018-04-09-07:00"
+                  },
+                  "InstitutionInformationEntry" : {
+                     "InstitutionNoteID" : {
+                        "InstitutionNoteTopic" : "Accreditation",
+                        "InstitutionNoteStatement" : "1"
+                     },
+                     "InstitutionNoteMessage" : "Note message"
+                  },
+                  "CSUAmerHistCompletion" : {
+                     "CompletionIndicator" : "Completed",
+                     "DateAchieved" : "2018-04-09-07:00"
+                  },
+                  "CSUGECompletion" : {
+                     "CSUGECompletionDate" : "2018-04-09-07:00",
+                     "CSUGECompletionAreas" : {
+                        "CSUGEAreaID" : "B",
+                        "CSUGEAreaCompletionIndicator" : "Completed",
+                        "CSUGEAreaCompletionDate" : "2018-04-09-07:00"
+                     }
+                  },
+                  "CSUIGETCCompletion" : {
+                     "CSUIGETCCertificationDate" : "2018-04-09-07:00",
+                     "CSUIGETCCertificationAreas" : {
+                        "CSUIGETCAreaID" : "1",
+                        "CSUIGETCAreaCompletionIndicator" : "Completed",
+                        "CSUIGETCAreaCompletionDate" : "2018-04-09-07:00"
+                     }
+                  },
+                  "UCIGETCCompletion" : {
+                     "UCIGETCCertificationDate" : "2018-04-09-07:00",
+                     "UCIGETCCertificationAreas" : {
+                        "UCIGETCAreaID" : "1",
+                        "UCIGETCAreaCompletionIndicator" : "CompletedWithPass-along",
+                        "UCIGETCAreaCompletionDate" : "2018-04-09-07:00"
+                     }
+                  }
+               }
+            }
+         } ]
+      }
+   }
+}
