@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test:element1 xmlns:test="urn:org:pesc:message:test" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:org:pesc:message:test jsontrans.xsd">
+	<element2>a b c</element2>
+	<element3 attribute1="text3"/>
+	<element4 attribute2="2" attribute3="3">text4</element4>
+	<element5>3</element5>
+	<element6>4</element6>
+	<!--
+	<element7></element7>
+	-->
+</test:element1>
