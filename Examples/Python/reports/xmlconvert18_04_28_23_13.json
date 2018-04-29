@@ -1,0 +1,20 @@
+{
+  "@xsi:schemaLocation": "urn:org:pesc:message:test jsontrans.xsd",
+  "element2": [
+    [
+      "a",
+      "b",
+      "c"
+    ]
+  ],
+  "element3": {
+    "@attribute1": "text3"
+  },
+  "element4": {
+    "@attribute2": 2,
+    "@attribute3": "3",
+    "$": "text4"
+  },
+  "element5": 3,
+  "element6": "4"
+}
