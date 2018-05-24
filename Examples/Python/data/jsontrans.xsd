@@ -9,14 +9,18 @@
 				<xs:element name="element4" type="test:element4Type"/>
 				<xs:element name="element5" type="test:element5Type"/>
 				<xs:element name="element6" type="test:element6Type"/>
-				<xs:element name="element7" type="test:element7Type" minOccurs="0"/>
+				<xs:element name="element7" type="test:element7Type" />
+				<xs:element name="element8" type="xs:string" minOccurs="0"/>
+				<xs:element name="element9" type="test:element9Type"/>
+				<xs:element name="element13" type="xs:string" maxOccurs="unbounded"/>
+				<xs:element name="element14" type="test:emptyType" minOccurs="0"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:simpleType name="element2Type">
 		<xs:list itemType="xs:string"/>
 	</xs:simpleType>
-	<xs:complexType name="element3Type" >
+	<xs:complexType name="element3Type">
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
 				<xs:attribute name="attribute1" type="xs:string" use="required"/>
@@ -39,9 +43,22 @@
 	</xs:simpleType>
 	<xs:complexType name="element7Type">
 		<xs:simpleContent>
-			<xs:extension base="xs:string">
+			<xs:extension base="xs:decimal">
 				<xs:attribute name="attribute4" type="xs:string" use="optional"/>
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
+	<xs:complexType name="element9Type">
+		<xs:sequence>
+			<xs:element name="element10" nillable="true" type="xs:string"/>
+			<xs:element name="element11" nillable="true" maxOccurs="unbounded" type="xs:string"/>
+			<xs:element name="element12" nillable="true" type="test:emptyType"/>
+		</xs:sequence>
+</xs:complexType>
+<xs:complexType name="emptyType">
+	<xs:sequence>
+		<xs:element name="element15" minOccurs="0"/>
+		<xs:element name="element16" minOccurs="0"/>
+	</xs:sequence>
+</xs:complexType>
 </xs:schema>
