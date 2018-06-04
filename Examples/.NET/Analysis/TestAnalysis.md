@@ -2,9 +2,7 @@
 
 ## Description
 
-This analysis has been produced in order to discover how objects are serialized/deserialized within a .NET environment.
-
-Test scripts can be found at: [GitHub](https://github.com)
+This analysis has been produced in order to discover how objects are JSON serialized/deserialized within a .NET environment.
 
 ## Disclaimer
 
